@@ -1,0 +1,57 @@
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar img.color {
+  width: 80px;
+  /* Adjust the width as needed */
+  height: auto;
+  /* This will maintain the aspect ratio */
+  cursor: pointer;
+}
+
+.navbar div {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar div a {
+  margin-left: 20px;
+  /* Adjust spacing between list items as needed */
+  position: relative;
+}
+
+.navbar div a:first-child {
+  margin-left: 0;
+  /* Remove margin from the first list item */
+}
+
+.navbar div a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  transition: all ease-in-out 0.25s;
+}
+
+.navbar div a:hover {
+  color: rgb(172, 207, 219);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.navbar div a::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+}
