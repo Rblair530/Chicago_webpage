@@ -4,6 +4,7 @@
     align-items: center;
     height: fit-content;
     width: inherit;
+    
 }
 
 
@@ -12,12 +13,14 @@
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 5px 5px 20px 24px rgba(155, 151, 151, 0.53);
 }
 
 .slides {
     width: 500%;
     height: 500px;
     display: flex;
+    
 }
 
 .slides input {
@@ -83,7 +86,7 @@
 
 .navigation-auto div {
     border: 2px solid #40d3dc;
-    padding: 5px;
+    padding: 6px;
     border-radius: 10px;
     transition: 1s;
 }

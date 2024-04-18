@@ -1,10 +1,10 @@
 import React, { ReactNode } from "react";
-import bean from "../assets/bean.jpeg";
+import fountain from "../assets/fountain.jpeg";
 import navypier from "../assets/navypier.jpeg";
-import painting from "../assets/painting.jpeg";
+import grafitti from "../assets/grafitti.jpeg";
 import searstower from "../assets/searstower.jpeg";
 import "./slideshow.css";
-import { slideRoater } from "../libs/slideshowAutoNav";
+import { slideRoater} from "../libs/slideshowAutoNav";
 
 
 
@@ -40,7 +40,7 @@ function SlideShow(): ReactNode {
 
                   {/* Below I am defining my image slides. **/}
                   <div className="slide first">
-                     <img src={bean} alt="the-bean" />
+                     <img src={fountain} alt="the-bean" />
                   </div>
 
                   <div className="slide">
@@ -48,7 +48,7 @@ function SlideShow(): ReactNode {
                   </div>
 
                   <div className="slide">
-                     <img src={painting} alt="painting-in-bronzeville" />
+                     <img src={grafitti} alt="painting-in-bronzeville" />
                   </div>
 
                   <div className="slide">
